@@ -15,5 +15,27 @@
 }
 
 .title {
+  display: flex;
+  justify-content: center;
 }
 
+.box-shop {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.box-shop > div {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.box-contacts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.box-contacts > div {
+  font-size: larger;
+  margin: auto;
+  margin-bottom: 30px;
+}
