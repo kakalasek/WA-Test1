@@ -14,6 +14,17 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+.navigation {
+  font-size: large;
+  border: 2px solid black;
+}
+
+.nav-list {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 30px;
+}
+
 .title {
   display: flex;
   justify-content: center;
