@@ -38,6 +38,7 @@
 .box-shop > div {
   border: 2px solid black;
   padding: 10px;
+  font-size: large;
 }
 
 .box-contacts {
